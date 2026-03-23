@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<h1> Welcome to my site</h1>
+
+<div>
+   <ol>
+    <li>For checkup <a href="{% url "upload_img" %}"><button>click here.</button></a></li><br>
+    <li>For data <a href="{% url "more" %}"><button>click here.</button></a></li>
+
+   </ol>
+</div>
+
+{% endblock %}

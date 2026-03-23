@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+
+{% block title %}<title> Here is ans</title>{% endblock %}
+{% block content %}
+<h3>Prediction: {{ prediction }}</h3>
+<div>
+    <p>{{dis}}</p>
+</div>
+<a href="{% url 'upload_img' %}"><button>back</button></a>
+{% endblock %}
